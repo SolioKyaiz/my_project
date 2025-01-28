@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block title %}
+Седьмая задача
+{% endblock title %}
+
+{% block content %}
+<h2>Седьмая задача</h2>
+{% for i in context%}
+<h4>{{ i }} </h4>
+{% endfor %}
+{% endblock content %}

@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}
+Третья задача
+{% endblock title %}
+
+{% block content %}
+<h2>Третья задача</h2>
+{% if var == True %}
+<p>{{ number }} is an even number</p>
+{% else %}
+<p>{{ number }} is an odd number</p>
+{% endif %}
+{% endblock content %}

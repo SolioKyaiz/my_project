@@ -24,4 +24,5 @@ from pprint import pprint
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('blog/', include('blog.urls')),
+
 ]

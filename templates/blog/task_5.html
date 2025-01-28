@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}
+Пятая задача
+{% endblock title %}
+
+{% block content %}
+<h2>Пятая задача</h2>
+{% if check == True %}
+<p>{{word}} is a palindrome</p>
+{% else %}
+<p>{{word}} is not a palindrome</p>
+{% endif %}
+{% endblock content %}
